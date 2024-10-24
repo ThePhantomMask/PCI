@@ -9,8 +9,9 @@ def menu():
     print("scritta con Python"+"\n")
     input_menu=input("Vuoi convertire? ")
 
-    if input_menu=="si":
-        select_folder()
+    match input_menu:
+        case "si":
+            select_folder()
 
 
 
