@@ -1,4 +1,5 @@
 PCI ( Python Conversione Immagini ) è un software scritto con Python che va convertire tutte le immagini con il formato desiderato.
+(Per utilizzarlo richiede di aver installato l'ambiente Python sul dispositivo che vuoi utilizzarlo)
 
 Librerie utilizzate:
 Interne:
