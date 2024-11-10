@@ -4,18 +4,6 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image
 
-def start_software():
-    # Controlla se la libreria PIL è installata
-    try:
-        import PIL
-        menu()
-    except ImportError:
-        print("PIL is not installed. Installing it...")
-        import pip
-        pip.main(['install', 'Pillow'])
-        print("PIL has been installed.")
-    
-
 def menu():
     print("Benvenuti al programma di conversione di immagini rapido scritto con Python"+"\n")
     input_menu=input("Scrivi la prima lettera della azioni che vuoi fare (e.g: ca -> convert all): ")
