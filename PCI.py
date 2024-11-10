@@ -65,4 +65,4 @@ def convert_images(folder_path, output_format):
 
 
 if __name__ == "__main__":
-    start_software()
+    menu()
